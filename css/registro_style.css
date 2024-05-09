@@ -1,0 +1,190 @@
+h1 {font-family: "Cabin", sans-serif;
+    color:rgb(255, 255, 255); font-size:20px;}
+  body{
+    background: linear-gradient(-45deg, #ffca29, #f64004, #9a1818, #ff0000);
+    background-size: 200% 400%;
+    animation: gradient 20s ease-in infinite;
+    height: 100vh;
+    color: #221f1f;;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  #head{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  #container{
+    backdrop-filter: url(filters.svg#filter) blur(40px) saturate(150%);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+    border-radius: 15px;
+    background: rgb(243, 243, 243);
+    box-shadow: 3px 3px 20px rgba(29, 29, 29, 0.108);
+    margin: auto;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  input{
+    font-size: 12;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 190px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+       background-color: #4a1b1b14;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+     }
+  coluna {
+    column-rule-width: 1px;
+      }
+  select {
+    width: 100%;
+    color:rgb(0, 0, 0);
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4a1b1b14;
+    }
+  button{
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff00;
+    color: #221f1f;
+    border-color: #000000;;
+    width: 80%;
+    height: 50px;
+    border: 0.ch;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 12px;
+    font-family: 'Hind', sans-serif;
+    transition: .6s;
+    overflow: hidden;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+  background-color: #ce1b1b;;
+  color: rgb(255, 255, 255);
+  border: 0;
+  }
+  
+  .tabs {
+    display: flex;
+    position: relative;
+    padding: 0.75rem;
+    border-radius: 99px;
+  }
+  
+  .tabs * {
+    z-index: 2;
+  }
+  
+  .container input[type="radio"] {
+    display: none;
+  }
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    font-size: .9rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+  }
+  
+  .container input[type="radio"]:checked + label {
+    color: #221f1f;;
+  }
+  
+  .container input[type="radio"]:checked + label > .notification {
+    background-color: #aa2a2a;
+    color: #221f1f;;
+    margin: 0px;
+  }
+  
+  .container input[id="yes"]:checked ~ .glider {
+    transform: translateX(0);
+  }
+  
+  .container input[id="no"]:checked ~ .glider {
+    transform: translateX(100%);
+  }
+  
+  .container input[id="radio-button3"]:checked ~ .glider {
+    transform: translateX(200%);
+  }
+  
+  .glider {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    width: 60px;
+    background-color: #00000015;
+    z-index: 1;
+    border-radius: 99px;
+    transition: 0.25s ease-out;
+  }
+  
+  @media (max-width: 00px) {
+   
+    .tabs {
+      transform: scale(0.6);
+    }
+  }
+  #center{
+    text-align: center;
+    padding-top: 40px;
+    width: 100px;
+  }
+  .btn {
+    background-color: rgb(123, 2, 2);
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    width: 12px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 1px;
+  
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgba(188, 1, 1, 0.504);
+  }
+  #bordanome {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  

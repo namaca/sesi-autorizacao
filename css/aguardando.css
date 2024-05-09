@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(-45deg,#ffca29,#f64004, #9a1818,#ff0000);
+    background-size: 200% 400%;
+    animation: gradient 20s ease-in infinite;
+    height: 100vh;
+    justify-content: flex-end;
+    padding: 9px;
+}
+.container{
+    backdrop-filter: url(filters.svg#filter) blur(40px) saturate(150%);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+    border-radius: 15px;
+    background: rgb(243, 243, 243);
+    box-shadow: 3px 3px 20px rgba(72, 61, 61, 0.108);
+    width: 45%;
+    height: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    display:inline-flexbox;
+}
+.material-symbols-outlined {
+  color: #ffff;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.nav{
+    display: flex;
+
+}
+#logoSesi{
+    margin-right: 110%;
+}
+.navLogo{
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.pagAnterior{
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+}
+#checkImg{
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
