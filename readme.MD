@@ -24,4 +24,4 @@ Este projeto é um sistema desenvolvido em PHP para controlar a autorização de
    git clone https://github.com/namaca/sesi-autorizacao.git
 
 ![página inicial](https://i.imgur.com/pbP4blV.png)
-![página de autorização](https://i.imgur.com/SPRI1FZ.png)
+![página de autorização](https://i.imgur.com/PvSRfBJ.png)
