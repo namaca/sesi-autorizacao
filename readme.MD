@@ -8,6 +8,7 @@ Este projeto é um sistema desenvolvido em PHP para controlar a autorização de
 - **Autorização de Saída**: Registra a saída dos alunos do SESI 332.
 - **Gerenciamento de Alunos**: Possibilita adicionar, editar e remover informações dos alunos.
 - **Relatórios**: Gera relatórios de entrada e saída dos alunos.
+- **Operação em tempo real**: Lista dos alunos é atualizada ao vivo e pode ser efetuada através do celular
 
 ### Pré-requisitos
 
