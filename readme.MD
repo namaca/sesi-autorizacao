@@ -25,3 +25,4 @@ Este projeto é um sistema desenvolvido em PHP para controlar a autorização de
 
 ![página inicial](https://i.imgur.com/pbP4blV.png)
 ![página de autorização](https://i.imgur.com/PvSRfBJ.png)
+![página da lista dos alunos](https://i.imgur.com/udN8ptC.png)
